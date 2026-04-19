@@ -276,7 +276,7 @@ export default function HomePage() {
 
                             {/* Right Image */}
                             <div className="lg:flex justify-center items-center w-full sm:w-[90%]  md:w-[50%] lg:w-[40%] ">
-                                <img src="/publish article offwhite bg.gif" alt="Hero" id="heroimg" className="w-full max-w-[150px] md:max-w-[500px] lg:max-w-[600px] object-cover" />
+                                <img src="/publish-article-offwhite-bg.gif" alt="Hero" id="heroimg" className="w-full max-w-[150px] md:max-w-[500px] lg:max-w-[600px] object-cover" />
                             </div>
                         </div>
                     </section>
