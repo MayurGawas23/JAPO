@@ -1,0 +1,26 @@
+// In your _app.js or similar
+import { useEffect, useState } from 'react';
+import { AuthProvider } from '../utils/auth';
+import '../styles/globals.css'
+import Header from '@/components/Header';
+
+function MyApp({ Component, pageProps }) {
+  // const [isClient, setIsClient] = useState(false);
+
+  // useEffect(() => {
+  //   setIsClient(true); // Mark the app as client-side once mounted
+  // }, []);
+
+  // if (!isClient) {
+  //   return <div>Loading...</div>; // Prevent SSR mismatch
+  // }
+
+  return (
+    <AuthProvider>
+      {/* <Header/> */}
+      <Component {...pageProps} />
+    </AuthProvider>
+  );
+}
+
+export default MyApp;
